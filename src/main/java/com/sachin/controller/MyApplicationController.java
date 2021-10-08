@@ -11,5 +11,9 @@ public class MyApplicationController {
 	public String getMessage() {
 		return "!!!! Hello World !!!!";
 	}
+	@GetMapping("/hello")
+	public String sayHello() {
+		return "!!!! Hello World 2";
+	}
 
 }
