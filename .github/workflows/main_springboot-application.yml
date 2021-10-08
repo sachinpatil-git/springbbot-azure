@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'springboot-application'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_84C76F913687439B84102F7C28673138 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D4463D8D68614F28B8D8429852754C36 }}
           package: '*.jar'
