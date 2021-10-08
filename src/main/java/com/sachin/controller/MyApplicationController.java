@@ -15,5 +15,9 @@ public class MyApplicationController {
 	public String sayHello() {
 		return "!!!! Hello World 2 !!!!";
 	}
+	@GetMapping("/message")
+	public String message() {
+		return "!!!! My first Springboot Application Runnning on Azure Platform !!!!";
+	}
 
 }
