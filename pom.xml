@@ -38,20 +38,20 @@
 	</dependencies>
 
 	<profiles>
-		<profile>
+	<!-- profile>
             <id>sonar</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <!-- Optional URL to server. Default value is http://localhost:9000 -->
+                Optional URL to server. Default value is http://localhost:9000
                 <sonar.host.url>
                   http://localhost:9000
                 </sonar.host.url>
                 <sonar.login >admin</sonar.login>
                 <sonar.password>ganga@0512</sonar.password> 
             </properties>
-        </profile>
+        </profile> -->
 	</profiles>
 <build>
   <plugins>
