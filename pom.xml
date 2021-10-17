@@ -37,8 +37,8 @@
 		</dependency> -->
 	</dependencies>
 
-	<profiles>
-	<!-- profile>
+	<!-- <profiles>
+		<profile>
             <id>sonar</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
@@ -51,8 +51,8 @@
                 <sonar.login >admin</sonar.login>
                 <sonar.password>ganga@0512</sonar.password> 
             </properties>
-        </profile> -->
-	</profiles>
+        </profile>
+	</profiles> -->
 <build>
   <plugins>
       <plugin>
