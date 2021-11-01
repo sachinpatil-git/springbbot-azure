@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'first-azure-app-sachin'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_818B67DCE87640CC8CDD82D92F806F01 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6523AB181EAC4857A45A811624939688 }}
           package: '*.jar'
